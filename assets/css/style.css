@@ -52,6 +52,11 @@ nav a:hover {
     color: darkred;
 }
 
+nav ul li .active {
+   color:midnightblue;
+   background-color:aliceblue;
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -59,8 +64,17 @@ nav a:hover {
 }
 
 #banner img {
+    position: relative;
     width: 60%;
     height: auto;
+}
+
+#notice {
+    position: absolute;
+    bottom: 60px;
+    left: 300px;
+    width: 60%;
+    font-size: xx-large;
 }
 
 .service {
@@ -83,4 +97,22 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+    color:seagreen;
+}
+
+.fa-fire {
+    color: red;
+}
+.fa-star {
+    color:darkkhaki
+}
+#logo {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+#footer {
+    display: block;
+    font-size:larger;
 }
